@@ -417,3 +417,21 @@ figcaption a{
     clear: both;
     display: table;
 }
+
+@media all and (max-width: 768px) {
+    .pic-slides img {
+        height: 100vh;
+        width: auto;
+    }
+
+    .slideshow-container {
+        position: relative;
+        margin: auto;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .fit-container {
+        margin: -20px
+    }
+}
